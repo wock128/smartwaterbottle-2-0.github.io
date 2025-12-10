@@ -1,33 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Smart Water Bottle 2.0</title>
-    <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-    <header>
-        <h1>Smart Water Bottle 2.0</h1>
-        <p>Hydration made intelligent.</p>
-    </header>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f7f7f7;
+}
 
-    <section class="hero">
-        <img src="assets/bottle.png" alt="Smart Water Bottle" />
-    </section>
+header {
+    background: #222;
+    color: white;
+    padding: 20px;
+}
 
-    <section class="features">
-        <h2>Features</h2>
-        <ul>
-            <li>Automatic hydration tracking</li>
-            <li>Temperature control</li>
-            <li>UV-C self-cleaning</li>
-            <li>Bluetooth syncing</li>
-        </ul>
-    </section>
+.hero img {
+    width: 250px;
+    margin-top: 30px;
+}
 
-    <footer>
-        <p>© 2025 Smart Water Bottle 2.0</p>
-    </footer>
-</body>
-</html>
+.features {
+    padding: 20px;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background: #ddd;
+}
